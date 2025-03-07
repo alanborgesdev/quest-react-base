@@ -18,21 +18,27 @@ Este projeto foi desenvolvido utilizando **React** e tem como objetivo criar um 
 
 ## 🐂 Estrutura do projeto  
 ```
-📝 quest-react-base  
- ├ 📂 src  
- ┃ ├ 📂 components  
- ┃ ┃ ├ 📂 TextTransformer  
- ┃ ┃ ┃ └ 📄 TextTransformer.jsx  
- ┃ ┃ ├ 📂 CustomButton  
- ┃ ┃ ┃ └ 📄 CustomButton.jsx  
- ┃ ┃ └ 📄 App.jsx  
- ┃ ├ 📄 index.js  
- ┃ └ 📄 styles.css  
- ├ 📄 package.json  
- ├ 📄 .eslintrc.json  
- ├ 📄 .gitignore  
- ├ 📄 README.md  
- └ 📄 public/index.html  
+QUEST-REACT-BASE/
+├ 📂 node_modules/
+├ 📂 public/
+├ 📂 src/
+│ ├ 📂 assets/
+│ ├ 📂 components/
+│ │ ├ 📂 AlertButton/
+│ │ │ ├ 📄 index.css
+│ │ │ ├ 📄 index.jsx
+│ │ ├ 📂 StyledTex/
+│ │ │ ├ 📄 index.css
+│ │ │ ├ 📄 index.jsx
+│ ├ 📄 App.jsx
+│ ├ 📄 main.jsx
+├ 📄 .gitignore
+├ 📄 eslint.config.js
+├ 📄 index.html
+├ 📄 package.json
+├ 📄 package-lock.json
+├ 📄 README.md
+├ 📄 vite.config.js
 ```
 
 ## ▶️ Como rodar o projeto  
@@ -51,34 +57,22 @@ Este projeto foi desenvolvido utilizando **React** e tem como objetivo criar um 
    ```
 4. **Inicie o servidor de desenvolvimento:**  
    ```bash
-   npm dev run
+   npm run dev
    ```
 5. **Abra no navegador:**  
    O projeto estará rodando em: `http://localhost:3000`
 
-## ⚡ Como usar o ESLint  
-Para verificar o código com o ESLint, execute:  
-```bash
-npx eslint src/
-```
-
 ## 📌 Componentes criados  
-### 🔧 TextTransformer 
-- Nome do componente: `TextTransformer`
-- Props:
-  - `text`: Texto a ser transformado para maiúsculo.
-  - `color`: Cor do texto (pode ser nome de cor ou hexadecimal).
+### 🛠️ AlertButton 
+- Nome do componente: `AlertButton`
 - Funcionalidade:
-  - Transforma o texto recebido via `props` em maiúsculo e aplica a cor desejada.
-  - Utiliza `style` inline para a estilização.
-
-### 🔧 CustomButton 
-- Nome do componente: `CustomButton`
-- Props:
-  - `label`: Texto exibido no botão.
-- Funcionalidade:
-  - Renderiza um botão com a label recebida via `props`.
+  - Renderiza um botão estilizado.
   - Ao ser clicado, exibe um `alert` com a mensagem: `"A label desse botão é <label>"`.
+
+### 🛠️ StyledTex 
+- Nome do componente: `StyledTex`
+- Funcionalidade:
+  - Aplica estilos personalizados ao texto.
 
 ## 📌 Autor  
 Projeto desenvolvido por **Alan Borges** no curso **DevQuest**.  

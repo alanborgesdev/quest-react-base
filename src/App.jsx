@@ -1,5 +1,5 @@
-import ColoredUpper from "./components/colored_upper_text/colored_upper_text";
-import Button from "./components/button/button";
+import ColoredUpper from "./components/StyledTex";
+import Button from "./components/AlertButton";
 
 function App() {
   return (

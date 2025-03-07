@@ -18,28 +18,21 @@ Este projeto foi desenvolvido utilizando **React** e tem como objetivo criar um 
 
 ## 🐂 Estrutura do projeto  
 ```
-```
-QUEST-REACT-BASE/
-├ 📂 node_modules/
-├ 📂 public/
-├ 📂 src/
-│ ├ 📂 assets/
-│ ├ 📂 components/
-│ │ ├ 📂 AlertButton/
-│ │ │ ├ 📄 index.css
-│ │ │ ├ 📄 index.jsx
-│ │ ├ 📂 StyledTex/
-│ │ │ ├ 📄 index.css
-│ │ │ ├ 📄 index.jsx
-│ ├ 📄 App.jsx
-│ ├ 📄 main.jsx
-├ 📄 .gitignore
-├ 📄 eslint.config.js
-├ 📄 index.html
-├ 📄 package.json
-├ 📄 package-lock.json
-├ 📄 README.md
-├ 📄 vite.config.js
+📝 quest-react-base  
+ ├ 📂 src  
+ ┃ ├ 📂 components  
+ ┃ ┃ ├ 📂 TextTransformer  
+ ┃ ┃ ┃ └ 📄 TextTransformer.jsx  
+ ┃ ┃ ├ 📂 CustomButton  
+ ┃ ┃ ┃ └ 📄 CustomButton.jsx  
+ ┃ ┃ └ 📄 App.jsx  
+ ┃ ├ 📄 index.js  
+ ┃ └ 📄 styles.css  
+ ├ 📄 package.json  
+ ├ 📄 .eslintrc.json  
+ ├ 📄 .gitignore  
+ ├ 📄 README.md  
+ └ 📄 public/index.html  
 ```
 
 ## ▶️ Como rodar o projeto  

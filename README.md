@@ -75,5 +75,6 @@ QUEST-REACT-BASE/
   - Aplica estilos personalizados ao texto.
 
 ## 📌 Autor  
-Projeto desenvolvido por **Alan Borges** no curso **DevQuest**.  
+
+Projeto desenvolvido por **[Alan Borges](https://github.com/alanborgesdev)** no curso **DevQuest**.   
 
